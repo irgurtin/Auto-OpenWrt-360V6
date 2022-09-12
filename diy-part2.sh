@@ -15,7 +15,8 @@
 
 
 git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
-git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+# git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
+svn co https://github.com/kiddin9/openwrt-packages/trunk/smartdns package/smartdns
 git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # svn co https://github.com/kiddin9/openwrt-packages/trunk/uugamebooster package/uugamebooster
 # svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-uugamebooster package/luci-app-uugamebooster
